@@ -16,6 +16,8 @@ contract ControlStructures {
             return "Splat";
     }
 
+    // error object
+
     error AfterHours(uint errorTime);
     function doNotDisturb(uint _time) external pure returns (string memory){
         if(_time >= 2400)
